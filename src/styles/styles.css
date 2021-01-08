@@ -18,21 +18,18 @@ body{
 :root{
   --color-white: #fff;
   --color-light-white: #eee;
-  --color-tomato: #d40640;
-  --color-purple-transparent: rgba(88, 24, 69, .9);
-  --color-pink-transparent: rgba(216, 14, 91, .9);
-  --color-orange: #ff3c00;
-
+  --color-pale-green: #04b875;
+  --colo-light-green-transparent: rgba(163, 240, 211, .9);
+  --color-green-transparent: rgba(88, 191, 153, .9);  
   --color-light-black: #222;
   --color-black: #000;
-
   --shadow: rgba(0,0,0, .4);
 }
 
 .app {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)), url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
+  background-image: linear-gradient(to bottom right, var(--color-green-transparent), var(--colo-light-green-transparent)), url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -54,7 +51,7 @@ body{
   overflow: hidden;
   white-space: no-wrap;
   color: var(--color-light-white);
-  background-color: var(--color-tomato);
+  background-color: var(--color-pale-green);
 }
 
 
@@ -124,7 +121,7 @@ body{
 }
 .btn:hover {
   color: var(--color-light-white);
-  background-color: var(--color-tomato);
+  background-color: var(--color-pale-green);
 }
 .btn:active {
   transform: scale(.95);
@@ -133,12 +130,12 @@ body{
 .btn--large {
   width: 50%;
   color: var(--color-white);
-  background-color: var(--color-tomato);
+  background-color: var(--color-pale-green);
   transition: all .2s;
 }
 
 .btn--large:hover {
   background-color: var(--color-white);
-  color: var(--color-tomato);
+  color: var(--color-pale-green);
 }
 
